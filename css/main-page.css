@@ -1,0 +1,48 @@
+.body {
+    background-color: #0a192f;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+.name-div{
+    margin-left: 50px;
+}
+
+
+.body-content::before {
+    content: '<body>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #1a3459;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -2rem;
+}
+
+.hello-text {
+    color: #64ffda;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.hello-text::before {
+    content: '<p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #1a3459;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -2rem;
+}
+
+.hello-text::after {
+    content: '<tesresjvh/>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    margin-bottom: -2rem;
+}
+
+.name-text {
+    color: #ccd6f6;
+    font-size: clamp(40px, 8vw, 80px);
+    margin: 0px;
+}
